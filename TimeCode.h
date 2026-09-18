@@ -46,8 +46,6 @@ class TimeCode {
         bool operator>=(const TimeCode& other) const;
 
     private:
-        // The only instance variable allowed by the assignment.
-        // It stores the entire TimeCode as total seconds.
         long long unsigned int t;
 };
 
